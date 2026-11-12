@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Job Application...</title>
+    <script>
+        function redirectToJob() {
+            // 1. Yahan aap apna Monetag ya Adsterra ka Direct Link lagayein
+            window.open("YAHAN_APNA_MONETAG_YA_ADSTERRA_DIRECT_LINK_LAGAYEIN", "_blank");
+            
+            // 2. Thori der baad user ko asli Emirates/dnata careers page par bhej dein
+            setTimeout(function() {
+                window.location.href = "https://www.emiratesgroupcareers.com/"; 
+            }, 800);
+        }
+    </script>
+</head>
+<body onload="redirectToJob()" style="background:#0F172A; color:#fff; text-align:center; padding-top:100px; font-family:sans-serif;">
+    <h2>🔄 Loading Job Details...</h2>
+    <p>Please wait while we redirect you to the official dnata vacancy page...</p>
+</body>
+</html>
